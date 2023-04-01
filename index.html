@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--Indica a linguagem na qual está a página neste caso português Brasil-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso de HTML introdução"><!--Insere uma breve descrição sobre a página-->
+    <meta name="keywords" content="HTML hiper text markup language"><!--Identificando as palavras chave para pesquisa no Google-->
+    <meta name="author" content="Rogerio Marcelo Ferreira"><!--Informa o autor da página-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--inserido um icone a página-->
+    <title>Exemplos de tags</title>
+</head>
+<body>
+    <h1 id="inicio">Tags exemplos</h1>
+    <ul>
+        <li><a href="#hierarquia">Hierarquia</a></li>
+        <li><a href="#imagem">Inserindo imagens</a></li>
+        <li><a href="#paragrafo">Parágrafo</a></li>
+        <li><a href="#algumas">Algumas formatações</a></li>
+        <li><a href="#input">Input</a></li>
+        <li><a href="#listas">Tipos de listas</a></li>
+        <li><a href="#referencia">Referências de sites de pesquisa sobre o assunto</a></li>
+    </ul>
+
+    <h2 id="hierarquia">Hierarquia de Títulos</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>
+        As hierarquias de títulos é seguida para 6 níveis diferentes pelas tags &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; segue os exemplos abaixo:
+    </p>
+    <h1>Este é um título em &lt;h1&gt; </h1>
+    <h2>Este é um título em &lt;h2&gt; </h2>
+    <h3>Este é um título em &lt;h3&gt; </h3>
+    <h4>Este é um título em &lt;h4&gt; </h4>
+    <h5>Este é um título em &lt;h5&gt; </h5>
+    <h6>Este é um título em &lt;h6&gt; </h6>
+
+    <h2 id="imagem">Inserindo imagens</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>Para inserir imagens usamos a tag &lt;img&gt;</p>
+    <p>Exemplos:</p>
+    <p>Carros</p>
+    <p>Podemos acessar qualquer imagem de um link externo</p>
+    <img src="https://p1.pxfuel.com/preview/956/14/497/cars-vehicle-chrome-old.jpg" alt="Carro antigo estacionado na cor vinho detalhes cromados e teto branco">
+    <p>Podemos determinar a largura da imagem pelo parâmetro width</p>
+    <img width="200" src="https://p1.pxfuel.com/preview/956/14/497/cars-vehicle-chrome-old.jpg" alt="Carro antigo estacionado na cor vinho detalhes cromados e teto branco">
+    <p>Podemos determinar a altura da imagem pelo parâmetro height </p>
+    <img height="200" src="https://p1.pxfuel.com/preview/956/14/497/cars-vehicle-chrome-old.jpg" alt="Carro antigo estacionado na cor vinho detalhes cromados e teto branco">
+
+    <h2 id="paragrafo">Páragrafo qualquer função lorem ipsum</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima inventore illum corporis illo repellendus quibusdam sapiente, expedita magni voluptate incidunt, praesentium atque provident dicta. Molestias tempore amet reprehenderit saepe ea.</p>
+
+    <h2 id="algumas">Algumas formatações</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>Para colocar o texto em negrito pode utilizar a tag &lt;b&gt; como por exemplo <b>NEGRITO</b> mas sem semântica</p>
+    <p>Para colocar o texto em negrito pode utilizar a tag &lt;strong&gt; como por exemplo <strong>NEGRITO</strong> mas com semântica</p>
+    <p>Observe que apresentou o mesmo resultado na tela, porém com métodos diferentes</p>
+    <p>Podemos deixar o texto em <em>Itálico</em> com ou sem semântica como por exemplo:</p>
+    <p><i>Este texto está em itálico sem semântica pela tag &lt;i&gt;</i></p>
+    <p><em>Este texto está em itálico com semântica pela tag &lt;em&gt;</em> emphasized</p>
+    <p>Temos outros exemplos de fortações como:</p>
+    <p>Efeito <mark>marca texto</mark> pela tag &lt;mark&gt;</mark></p>
+    <p><del>podemos indicar que um trecho foi removido</del> ou <ins>podemos indicar que um texto foi inserido</ins></p>
+    <p>Podemos apresentar a fórmula da água H<sub>2</sub>O ou podemos escrever uma equação do 2<sup>o</sup> grau, x<sup>2</sup> - 25 tendo as raízes da equação, x<sub>1</sub>= - 5 e x<sub>2</sub> = 5 </p>
+    <h2 id="listas">Listas</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>Temos as listas ordenadas</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar o rosto</li>
+        <li>Arrumar a cama</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <p>Podemos adicionar alguns parâmetros a lista ordenada com o exemplo</p>
+    <p><strong>Letras maiúsculas e minúsculas</strong></p>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar o rosto</li>
+        <li>Arrumar a cama</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>   
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar o rosto</li>
+        <li>Arrumar a cama</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+   <p><strong>Algarismos romanos maiúsculos e minúsculos</strong></p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar o rosto</li>
+        <li>Arrumar a cama</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar o rosto</li>
+        <li>Arrumar a cama</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <p>Nas lista sem ordenação</p> 
+    <ul>
+        <li>leite</li>
+        <li>pão</li>
+        <li>tomate</li>
+        <li>alface</li>
+        <li>sabão em pó</li>
+    </ul>
+    <p><strong>Podemos colocar alguns parâmetros na lista como por exemplos</strong></p>
+    <ul type="circle">
+        <li>leite</li>
+        <li>pão</li>
+        <li>tomate</li>
+        <li>alface</li>
+        <li>sabão em pó</li>
+    </ul>
+    <ul type="square">
+        <li>leite</li>
+        <li>pão</li>
+        <li>tomate</li>
+        <li>alface</li>
+        <li>sabão em pó</li>
+    </ul>        
+    <h2 id="input">Input</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p>Caixa de texto</p>
+    <input type="text" value="">
+    <p>Botão enviar formulário</p>
+    <input type="button" value="Adicionar">
+    <p>Inserir uma data de nascimento</p>
+    <input type="date" name="" id="">
+
+    <p><strong>Para a navegação do site utilizamos a tag &lt;a href="#"&gt; e &lt;/a&gt;</strong></p>
+
+    <h2 id="referencia">Referência de sites de pesquisa sobre o assunto</h2>
+    <Small><a href="#inicio">Voltar</a></Small>
+    <p><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3 SCHOOLS</a></p>
+</body>
+</html>
